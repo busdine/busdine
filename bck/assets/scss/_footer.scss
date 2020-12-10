@@ -46,44 +46,10 @@
         }
         p{
             color: #C2C5DB;
+            font-size: 29px;
         }
     }
-    .footer-form{
-        margin-top: 40px;
-        form{
-            position: relative;
-            input{
-                width: 100%;
-                height: 43px;
-                padding: 10px 20px;
-                border: 1px solid #695CAE;
-                background: no-repeat;
-                border-radius: 14px;
-                color: #fff;
-                text-align: center;
-                &::placeholder{
-                    color: #CCC6DC;
-                }
-            }
-            .form-icon{
-                button{
-                    border: 0;
-                    cursor: pointer;
-                    padding: 13px 22px;
-                    @extend %btn-bgs;
-                    // background: $theme-color;
-                    line-height: 1;
-                    width: 100%;
-                    display: block;
-                    margin-top: 24px;
-                    border-radius: 10px;
-                }
-            }
-        }
-    }
-    .info.error {
-        color:  $theme-color;
-    }
+
 }
 
 //copy Right 
@@ -94,8 +60,8 @@
     }
     .footer-copy-right{
         p{
-            color: #C2C5DB;
-            font-weight: 300;
+            color: #ffffff;
+            font-weight: 500;
             font-size: 15px;
             line-height: 2;
             margin-bottom: 12px;
@@ -105,7 +71,7 @@
             a{
                 color: #fff;
                 &:hover{
-                    // color: #C2C5DB;
+                     color: #232323;
                 }
                  
             }

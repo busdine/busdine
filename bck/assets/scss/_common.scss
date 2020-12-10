@@ -464,7 +464,7 @@ hr {
 	}
 /* scrollUp */
 	#scrollUp,#back-top  {
-		background:$theme-color;
+		background:#fff;
 		height: 50px;
 		width: 50px;
 		right: 31px;
@@ -473,7 +473,7 @@ hr {
 		@media #{$xs}{
 			right: 16px;
 		}
-		color: #fff;
+		color: $theme-color;
 		font-size: 20px;
 		text-align: center;
 		border-radius: 50%;
