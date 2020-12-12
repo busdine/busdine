@@ -249,6 +249,19 @@ p {
     height: 40%;
 }
 
+.partnership-mock {
+    margin-top: 40 rem;
+    height: 600px;
+   
+}
+
+.aboutmock {
+    width:50rem;
+    height:35rem;
+    z-index: 9999;
+    border-radius: 10px;
+}
+
 .mockWorks {
    
     width:65%;
@@ -2672,10 +2685,10 @@ hr {
     line-height: 1.4;
 }
 .aboutUs {
+    margin-top: 91px;
     color: #fff;
-    z-index: 999;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 500;
     line-height: 1.4;
 }
 
@@ -3294,6 +3307,12 @@ form.search-box .input-form .world-form i {
     border-bottom: 1px solid #e7e6eb;
 }
 .pricing-card-area .single-card .card-mid h4 {
+    color: #232323;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.partnerBenefits{
     color: #232323;
     font-size: 17px;
     font-weight: 400;
