@@ -234,7 +234,8 @@ p {
 .main-mock {
     margin-top: 40 rem;
     width: 65%;
-    height: 40%}
+    height: 40%
+}
 .works-mock-left {
     width: 250px;
 }
@@ -2113,7 +2114,7 @@ to {
 }
 }.section-tittle h2 {
     margin-top: 50px;
-    font-size: 44px;
+    font-size: 32px;
     display: block;
     margin-bottom: 50px;
     line-height: 1.4;
@@ -2124,18 +2125,18 @@ to {
     margin-top: -80px;
     font-size: 40px;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     line-height: 1.4;
     margin-bottom: 30px;
     color: #ff880e;
 }
 @media only screen and (min-width:992px) and (max-width:1199px) {
     .section-tittle h2 {
-    font-size: 41px;
+    font-size: 32px;
 }
 }@media only screen and (min-width:200px) and (max-width:767px) {
     .section-tittle h2 {
-    font-size: 31px;
+    font-size: 32px;
 }
 }@media (max-width:575px) {
     .section-tittle h2 {
@@ -2146,7 +2147,7 @@ to {
     margin-top: 30px;
     font-size: 40px;
     display: block;
-    margin-bottom: 55px;
+    margin-bottom: 5px;
     line-height: 1.4;
     color: #ff880e;
 }
@@ -3152,7 +3153,7 @@ form.search-box .input-form .world-form i {
     color: #000;
 }
 .about-area1 .about-caption {
-    margin-top: 90px;
+    margin-top: 0px;
     padding-left: 50px;
 }
 .about-area1 .about-caption.about-caption3 {
@@ -3168,12 +3169,12 @@ form.search-box .input-form .world-form i {
 }
 }@media only screen and (min-width:768px) and (max-width:991px) {
     .about-area1 .about-caption {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-left: 0;
 }
 }@media only screen and (min-width:576px) and (max-width:767px) {
     .about-area1 .about-caption {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-left: 0;
 }
 }@media (max-width:575px) {
@@ -3195,7 +3196,7 @@ form.search-box .input-form .world-form i {
 .about-area1 .about-img img {
     width: 100%;
 }
-@media (max-width:800px) {
+@media (max-width:768px) {
 .about-area1 .about-img img {
    display: none;
 }
@@ -3221,7 +3222,7 @@ form.search-box .input-form .world-form i {
 }
 }.pricing-card-area {
     position: relative;
-    margin-top: -50px;
+    margin-top: 50px;
 }
 .pricing-card-area.pricing-card-area2 {
     margin-top: 10px;
