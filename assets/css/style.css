@@ -130,6 +130,7 @@
     border-radius: 20 px!important;
     text-transform: uppercase;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 .boxed-btn-cta:hover {
     background: #fff;
@@ -244,13 +245,50 @@ p {
     margin-left: -95px;
     width: 550px;
 }
+
+
+@media (max-width:411px) {
+    /* .panel-mock {
+       visibility: hidden;
+    } 
+    .works-mock-right {
+        visibility: hidden;
+    }
+    .works-mock-left {
+        visibility: hidden;
+    } */
+    .mockyBox{
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    /* .panel-mock {
+        visibility: hidden;
+    }
+    .works-mock-right {
+        visibility: hidden;
+    }
+    .works-mock-left {
+        visibility: hidden;
+    } */
+    .mockyBox{
+        display: none;
+    }
+}
+
+
+
+
+
+
 .howWorks {
     color: #ff880e;
-    font-size: 45px;
+    font-size: 35px;
     display: block;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 5px;
     line-height: 1.4;
 }
 @media (min-width:600px) and (max-width:1020px) {
@@ -263,13 +301,18 @@ p {
 .works-mock-right {
     width: 150px;
 }
-}@media (min-width:50px) and (max-width:599px) {
+}
+@media (min-width:50px) and (max-width:599px) {
     .howWorks {
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 .panel-mock {
     visibility: hidden;
 }
+.mockingHow {
+    visibility: hidden;
+}
+
 .works-mock-left {
     visibility: hidden;
 }
@@ -2562,7 +2605,7 @@ to {
 }
 .textMockleft {
     width: 400px;
-    margin-left: -20px;
+    margin-left: 0px;
 }
 .textMockcenter {
     width: 600px;
@@ -2611,13 +2654,40 @@ to {
 }
 .aboutTeam {
     color: #ff880e;
-    font-size: 45px;
+    font-size: 35px;
     display: block;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
     line-height: 1.4;
 }
+
+
+@media (max-width:411px) {
+    .aboutTeam {
+        color: #ff880e;
+        font-size: 35px;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        line-height: 1.4;
+    }
+}
+/* template */
+
+@media (max-width:768px) {
+    .aboutTeam {
+        color: #ff880e;
+        font-size: 35px;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        line-height: 1.4;
+    }
+}
+
 @media only screen and (min-width:768px) and (max-width:991px) {
     .aboutUs {
     color: #fff;
@@ -2665,10 +2735,12 @@ to {
 }@media (max-width:575px) {
     .slider-area .hero__caption p {
     margin-bottom: 31px;
+    margin-top: 120px;
     color: #ff880e;
     font-size: 30px;
     font-weight: 500;
     line-height: 1.4;
+    margin-top:170px;
 }
 }.slider-area .hero__caption.hero__caption2 {
     padding-top: 0;
@@ -4770,6 +4842,7 @@ form.search-box .input-form .world-form i {
         margin-bottom: 100px;
     }
 }
+/* template */
 
 @media (max-width:768px) {
     .boxed-btn-contact {
